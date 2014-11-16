@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.tema5</OriginalElement>
+  <nodes>
+    <node x="172.74242424242425" y="0.0">com.tema5.AbstractFactory.mobile.MobilePhone</node>
+    <node x="1005.0" y="112.0">com.tema5.AbstractFactory.television.Smart</node>
+    <node x="478.875" y="347.0">com.tema5.AbstractFactory.SamsungFactory</node>
+    <node x="813.0" y="112.0">com.tema5.AbstractFactory.television.Interactive</node>
+    <node x="346.0" y="112.0">com.tema5.AbstractFactory.mobile.TrendPlus</node>
+    <node x="0.0" y="443.0">com.tema5.SamsungDeviceFactory</node>
+    <node x="199.0" y="224.0">com.tema5.AbstractFactory.devices.MobilePhoneFactory</node>
+    <node x="519.0" y="101.0">com.tema5.AbstractFactory.devices.DeviceFactory</node>
+    <node x="908.7424242424242" y="0.0">com.tema5.AbstractFactory.television.Television</node>
+    <node x="0.0" y="112.0">com.tema5.AbstractFactory.mobile.Galaxy</node>
+    <node x="770.4924242424242" y="224.0">com.tema5.AbstractFactory.devices.TVFactory</node>
+    <node x="173.0" y="112.0">com.tema5.AbstractFactory.mobile.GalaxyNote</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.tema5.AbstractFactory.television.Smart" target="com.tema5.AbstractFactory.television.Television">
+      <point x="0.0" y="-25.5" />
+      <point x="1091.0" y="76.0" />
+      <point x="1037.7424242424242" y="76.0" />
+      <point x="43.0" y="25.5" />
+    </edge>
+    <edge source="com.tema5.AbstractFactory.devices.TVFactory" target="com.tema5.AbstractFactory.television.Interactive">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.tema5.AbstractFactory.devices.MobilePhoneFactory" target="com.tema5.AbstractFactory.mobile.Galaxy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.tema5.AbstractFactory.television.Interactive" target="com.tema5.AbstractFactory.television.Television">
+      <point x="0.0" y="-25.5" />
+      <point x="899.0" y="76.0" />
+      <point x="951.7424242424242" y="76.0" />
+      <point x="-43.0" y="25.5" />
+    </edge>
+    <edge source="com.tema5.AbstractFactory.mobile.TrendPlus" target="com.tema5.AbstractFactory.mobile.MobilePhone">
+      <point x="0.0" y="-25.5" />
+      <point x="422.5" y="76.0" />
+      <point x="300.24242424242425" y="76.0" />
+      <point x="51.0" y="25.5" />
+    </edge>
+    <edge source="com.tema5.AbstractFactory.devices.MobilePhoneFactory" target="com.tema5.AbstractFactory.mobile.TrendPlus">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.tema5.AbstractFactory.devices.TVFactory" target="com.tema5.AbstractFactory.television.Smart">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.tema5.AbstractFactory.mobile.Galaxy" target="com.tema5.AbstractFactory.mobile.MobilePhone">
+      <point x="0.0" y="-25.5" />
+      <point x="76.5" y="76.0" />
+      <point x="198.24242424242425" y="76.0" />
+      <point x="-51.0" y="25.5" />
+    </edge>
+    <edge source="com.tema5.AbstractFactory.SamsungFactory" target="com.tema5.AbstractFactory.devices.MobilePhoneFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.tema5.AbstractFactory.SamsungFactory" target="com.tema5.AbstractFactory.devices.TVFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.tema5.AbstractFactory.mobile.GalaxyNote" target="com.tema5.AbstractFactory.mobile.MobilePhone">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.tema5.AbstractFactory.devices.MobilePhoneFactory" target="com.tema5.AbstractFactory.devices.DeviceFactory">
+      <point x="102.75" y="-36.5" />
+      <point x="438.75" y="199.0" />
+      <point x="587.5" y="199.0" />
+      <point x="-68.5" y="36.5" />
+    </edge>
+    <edge source="com.tema5.AbstractFactory.devices.TVFactory" target="com.tema5.AbstractFactory.devices.DeviceFactory">
+      <point x="-91.33333333333331" y="-36.5" />
+      <point x="816.159090909091" y="199.0" />
+      <point x="724.5" y="199.0" />
+      <point x="68.5" y="36.5" />
+    </edge>
+    <edge source="com.tema5.AbstractFactory.devices.MobilePhoneFactory" target="com.tema5.AbstractFactory.mobile.GalaxyNote">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8638262322472848" x="588.5" y="267.5038684719536" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
